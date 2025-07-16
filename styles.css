@@ -1,0 +1,92 @@
+/* styles.css — Perhentian Dive Festival 2025 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f0f7f9;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+header {
+  background: url('https://images.unsplash.com/photo-1493558103817-58b2924bce98') no-repeat center center/cover;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+header .cta {
+  background-color: #00bcd4;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+nav {
+  background: #007d8c;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+h1, h2 {
+  color: #007d8c;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #00bcd4;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+footer {
+  background: #004c4c;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+}
+
+.footer-links a {
+  color: #ffffff;
+  margin: 0 1rem;
+  text-decoration: underline;
+}
